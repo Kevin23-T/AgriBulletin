@@ -1,0 +1,79 @@
+.admin-dashboard {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2e7d32; /* Green color */
+  }
+  
+  .section-divider {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2e7d32; /* Green color */
+  }
+  
+  .notification-update {
+    margin-bottom: 20px;
+  }
+  
+  .notification-update p {
+    margin-bottom: 10px;
+    color: #666666;
+  }
+  
+  .notification-checkbox {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #2e7d32; /* Green color */
+  }
+  
+  .action-button {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #2e7d32; /* Green color */
+    border-color: #2e7d32; /* Green color */
+  }
+  
+  .action-button:hover {
+    background-color: #1b5e20; /* Darker green color on hover */
+    border-color: #1b5e20; /* Darker green color on hover */
+  }
+  
+  .update-scheme {
+    margin-bottom: 20px;
+  }
+  
+  .more-functionalities {
+    margin-bottom: 20px;
+  }
+  
+  .functionality-button {
+    margin-right: 10px;
+  }
+  
+  .functionality-button:hover {
+    background-color: #1b5e20; /* Darker green color on hover */
+    border-color: #1b5e20; /* Darker green color on hover */
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888888;
+  }
+  
+  .footer a {
+    color: #888888;
+  }
+  
+  .footer a:hover {
+    color: #555555;
+  }
