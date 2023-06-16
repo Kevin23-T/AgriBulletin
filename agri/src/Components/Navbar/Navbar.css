@@ -17,8 +17,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-left: 55rem;
+    justify-content: flex-end;
     display: flex;
     align-items: center;
+    gap: 40px;
+
+    
   }
   
   .navbar-links li {
