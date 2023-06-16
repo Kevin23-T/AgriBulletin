@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-logo a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links li {
+    margin-left: 10px;
+  }
+  
+  .navbar-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { PhoneOutlined, MessageOutlined, NotificationOutlined} from '@ant-design/icons';
 import { Divider, Input, Checkbox, Button, Radio } from 'antd';
 import Complaints from '../Complaint/Complaint'
+import Navbar from '../Navbar/Navbar';
 import  './Admin.css';
 const Admin = () => {
   const [message, setMessage] = useState('');
@@ -79,7 +80,8 @@ const Admin = () => {
   };
 
   return (
-    
+    <div className='admin-dashboard-main'>
+      <Navbar/>
     <div className="admin-dashboard">
       <h2>Admin Dashboard</h2>
 
@@ -157,6 +159,7 @@ const Admin = () => {
       {viewComplaints && <Complaints />}
 
       <footer className="footer">AgriBulletIn</footer>
+    </div>
     </div>
   );
 };
